@@ -29,19 +29,23 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
 export default {
   name: "Welcome",
+  computed: {
+    ...mapState("user", ["test"]),
+  },
 };
 </script>
 
 <style scoped>
 .welcome-container {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
-  padding: 20px;
+  padding: 30px;
 }
 
 .welcome-content {

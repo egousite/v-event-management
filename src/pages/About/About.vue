@@ -51,10 +51,10 @@ export default {
 
 <style scoped>
 .about-container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 40px 20px;
-  /* background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%); */
+  padding: 80px 20px 0;
+  box-sizing: border-box;
 }
 
 /* 头部样式 */
@@ -62,8 +62,6 @@ export default {
   text-align: center;
   margin-bottom: 60px;
   padding: 40px 20px;
-  /* background: linear-gradient(135deg, #667eea 0%, #667eea 100%); */
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
   border-radius: 24px;
   color: #333;
 }
@@ -91,7 +89,6 @@ export default {
 }
 
 .contact-card {
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
   border-radius: 24px;
   padding: 50px;
   color: #333;
@@ -158,7 +155,6 @@ export default {
 .contact-btn:hover {
   background: #f1f5f9;
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
 }
 
 /* 响应式设计 */

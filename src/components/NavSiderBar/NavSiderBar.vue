@@ -5,11 +5,11 @@
       <li>
         <router-link to="/welcome" active-class="active">
           <span class="iconfont icon-16"></span>
-          <span>欢迎页</span>
+          <span>首页</span>
         </router-link>
       </li>
       <li>
-        <router-link to="/content" active-class="active">
+        <router-link to="/article" active-class="active">
           <span class="iconfont icon-16"></span>
           <span>文章管理</span>
         </router-link>
@@ -18,6 +18,12 @@
         <router-link to="/publish" active-class="active">
           <span class="iconfont icon-fabu"></span>
           <span>发布文章</span>
+        </router-link>
+      </li>
+      <li>
+        <router-link to="/profile" active-class="active">
+          <span class="iconfont icon-geren"></span>
+          <span>个人中心</span>
         </router-link>
       </li>
       <li>
@@ -38,14 +44,16 @@ export default {};
 /* 侧边栏 */
 .aside {
   width: 200px;
+  min-width: 200px;
   background-color: #023;
   padding-top: 40px;
 }
 
 .aside h2 {
   text-align: center;
-  color: #409eff;
+  color: #fc6627;
   font-size: 26px;
+  margin-bottom: 30px;
 }
 
 /* 侧边栏导航 */
